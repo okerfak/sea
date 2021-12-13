@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+}
+div#board {
+	position: relative;
+	width: 1024px;
+	height: 850px;
+	margin: auto;
+	background: url("img/game-board-assets.png") no-repeat;
+}
+div#messageArea{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: rgb(55, 20, 175);
+}
+
+table{
+	position: absolute;
+	left: 67px;
+	top: 90px;
+	border-spacing: 0px;
+	}
+td{
+	width: 131px;
+	height: 96px;
+	padding-right: 3px;
+}
+
+form{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 15px;
+	background-color: rgb(55, 20, 175);
+}
+form input{
+	background-color: rgb(255, 255, 255);
+	border-color: rgb(55, 20, 175);
+	font-size: 1.1em;
+}
+
+.hit {
+	background: url("img/fire.png") no-repeat center center;
+}
+.miss {
+	background: url("img/circle.png") no-repeat center center;
+}
